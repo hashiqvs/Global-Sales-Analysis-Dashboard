@@ -1,108 +1,94 @@
 # Global-Sales-Analysis-Dashboard
 
+# 🌍 Global Superstore Analysis
 
-🌍 Global Sales Analysis
-📌 Project Overview
+## 📌 Project Overview
+The Global Superstore Analysis project focuses on analyzing sales transaction data from a global retail store operating across multiple countries, regions, and markets. The objective of this project is to clean the data, analyze sales performance, and present insights through an interactive Power BI dashboard for stakeholders.
 
-The Global Sales Analysis project focuses on analyzing sales transaction data from a retail store with branches across multiple countries. The objective is to clean the data, analyze sales performance, and create an interactive dashboard that provides meaningful insights for stakeholders.
+---
 
-🎯 Objectives
+## 🎯 Objectives
+- Perform basic data cleaning on sales transaction data  
+- Segment visuals using Country, Region, and Market  
+- Analyze the percentage of shipping based on Ship Mode  
+- Visualize sales across City, Region, and Market  
+- Create tables to support all visualizations  
+- Build an interactive sales report for stakeholder analysis  
 
-Perform basic data cleaning to ensure data accuracy
+---
 
-Segment visuals by Country, Region, and Market
+## 🧹 Data Cleaning
+The following data cleaning steps were applied:
+- Removal of duplicate records  
+- Handling missing and null values  
+- Standardization of categorical columns (Region, Market, Ship Mode)  
+- Correct data type assignment for numeric and date fields  
 
-Analyze the percentage of shipping based on Ship Mode
+---
 
-Visualize sales across City, State, Region, and Market
+## 📍 Dashboard Filters
+Interactive slicers are provided for:
+- Country  
+- Region  
+- Market  
 
-Create tables for all visualizations
+These filters dynamically update all visuals and tables in the report.
 
-Build an interactive sales report for stakeholders
+---
 
-🧹 Data Cleaning
+## 📊 Key Metrics
+- Total Sales: 12.64M  
+- Total Profit: 1.47M  
+- Total Shipping Cost: 1.35M  
+- Total Quantity Sold: 178K  
 
-The following data cleaning steps were performed:
+---
 
-Removed duplicate records
+## 🌍 Sales Analysis
+Sales performance is visualized across:
+- Region  
+- Market  
+- City  
 
-Handled missing and null values
+These insights help identify high-performing locations and sales trends.
 
-Standardized Country, Region, and Market fields
+---
 
-Corrected data types for dates and numeric columns
+## 🚚 Shipping Mode Analysis
+A pie chart displays the percentage distribution of sales by Ship Mode:
+- Standard Class  
+- Second Class  
+- First Class  
+- Same Day  
 
-📍 Data Segmentation
+---
 
-All visuals are segmented using:
+## 📋 Tables
+Detailed tables are included for:
+- Sales by City  
+- Sales by Region  
+- Sales by Market  
+- Sales by Ship Mode  
 
-Country
+These tables support transparency and detailed data analysis.
 
-Region
+---
 
-Market
+## 📈 Interactive Dashboard
+The Power BI dashboard enables:
+- Cross-filtering between visuals  
+- Drill-down analysis across geographic levels  
+- Dynamic interaction using slicers  
 
-These segments allow stakeholders to interactively filter and analyze sales data.
+---
 
-🚚 Shipping Mode Analysis
+## 🛠 Tools Used
+- Power BI  
+- Power Query for data cleaning  
+- DAX for calculations  
 
-Visualized the percentage distribution of shipping based on Ship Mode
 
-Ship Modes included:
+---
 
-Standard Class
-
-Second Class
-
-First Class
-
-Same Day
-
-📊 Sales Analysis
-
-Sales performance is analyzed using the following dimensions:
-
-City-wise sales
-
-State-wise sales
-
-Region-wise sales
-
-Market-wise sales
-
-These visuals help identify top-performing locations and sales trends.
-
-📋 Tables
-
-Each visualization is supported by a corresponding data table to display detailed values and improve data transparency.
-
-📈 Interactive Dashboard
-
-An interactive dashboard was created to:
-
-Filter data by Country, Region, and Market
-
-Drill down from Market to Region, State, and City
-
-Analyze shipping mode distribution
-
-Explore global sales trends dynamically
-
-🛠 Tools Used
-
-Data Visualization Tool: Power BI / Tableau / Excel / Python
-
-Data Cleaning and Data Transformation
-
-📁 Project Structure
-├── Data/
-│   └── Global_Sales_Dataset.csv
-├── Dashboard/
-│   └── Global_Sales_Interactive_Report
-├── Tables/
-│   └── Sales_Summary_Tables
-└── README.md
-
-✅ Conclusion
-
-The Global Sales Analysis report provides a comprehensive view of worldwide sales performance and shipping trends. The interactive dashboard enables stakeholders to make informed, data-driven decisions.
+## ✅ Conclusion
+The Global Superstore Analysis dashboard delivers a comprehensive view of global sales and shipping performance. The interactive visuals and detailed tables support data-driven decision-making for stakeholders.
