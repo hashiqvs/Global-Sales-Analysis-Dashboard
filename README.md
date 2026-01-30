@@ -1,7 +1,5 @@
 # Global-Sales-Analysis-Dashboard
 
-#  Global Superstore Analysis
-
 ##  Project Overview
 The Global Superstore Analysis project focuses on analyzing sales transaction data from a global retail store operating across multiple countries, regions, and markets. The objective of this project is to clean the data, analyze sales performance, and present insights through an interactive Power BI dashboard for stakeholders.
 
