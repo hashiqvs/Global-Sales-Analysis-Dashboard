@@ -1,13 +1,13 @@
 # Global-Sales-Analysis-Dashboard
 
-# 🌍 Global Superstore Analysis
+#  Global Superstore Analysis
 
-## 📌 Project Overview
+##  Project Overview
 The Global Superstore Analysis project focuses on analyzing sales transaction data from a global retail store operating across multiple countries, regions, and markets. The objective of this project is to clean the data, analyze sales performance, and present insights through an interactive Power BI dashboard for stakeholders.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Perform basic data cleaning on sales transaction data  
 - Segment visuals using Country, Region, and Market  
 - Analyze the percentage of shipping based on Ship Mode  
@@ -17,7 +17,7 @@ The Global Superstore Analysis project focuses on analyzing sales transaction da
 
 ---
 
-## 🧹 Data Cleaning
+##  Data Cleaning
 The following data cleaning steps were applied:
 - Removal of duplicate records  
 - Handling missing and null values  
@@ -26,7 +26,7 @@ The following data cleaning steps were applied:
 
 ---
 
-## 📍 Dashboard Filters
+##  Dashboard Filters
 Interactive slicers are provided for:
 - Country  
 - Region  
@@ -36,7 +36,7 @@ These filters dynamically update all visuals and tables in the report.
 
 ---
 
-## 📊 Key Metrics
+##  Key Metrics
 - Total Sales: 12.64M  
 - Total Profit: 1.47M  
 - Total Shipping Cost: 1.35M  
@@ -44,7 +44,7 @@ These filters dynamically update all visuals and tables in the report.
 
 ---
 
-## 🌍 Sales Analysis
+##  Sales Analysis
 Sales performance is visualized across:
 - Region  
 - Market  
@@ -54,7 +54,7 @@ These insights help identify high-performing locations and sales trends.
 
 ---
 
-## 🚚 Shipping Mode Analysis
+##  Shipping Mode Analysis
 A pie chart displays the percentage distribution of sales by Ship Mode:
 - Standard Class  
 - Second Class  
@@ -63,7 +63,7 @@ A pie chart displays the percentage distribution of sales by Ship Mode:
 
 ---
 
-## 📋 Tables
+##  Tables
 Detailed tables are included for:
 - Sales by City  
 - Sales by Region  
@@ -74,7 +74,7 @@ These tables support transparency and detailed data analysis.
 
 ---
 
-## 📈 Interactive Dashboard
+##  Interactive Dashboard
 The Power BI dashboard enables:
 - Cross-filtering between visuals  
 - Drill-down analysis across geographic levels  
@@ -82,7 +82,7 @@ The Power BI dashboard enables:
 
 ---
 
-## 🛠 Tools Used
+##  Tools Used
 - Power BI  
 - Power Query for data cleaning  
 - DAX for calculations  
@@ -90,5 +90,5 @@ The Power BI dashboard enables:
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 The Global Superstore Analysis dashboard delivers a comprehensive view of global sales and shipping performance. The interactive visuals and detailed tables support data-driven decision-making for stakeholders.
