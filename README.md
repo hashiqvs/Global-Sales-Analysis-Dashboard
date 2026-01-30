@@ -1,39 +1,40 @@
 # Global-Sales-Analysis-Dashboard
 
- Global Sales Analysis
- Project Description
 
-The Global Sales Analysis project focuses on analyzing sales transaction data from a retail store operating across multiple countries and markets worldwide. The objective is to transform raw sales data into meaningful insights through data cleaning, visualization, and interactive reporting to support stakeholder decision-making.
+🌍 Global Sales Analysis
+📌 Project Overview
 
- Project Objectives
+The Global Sales Analysis project focuses on analyzing sales transaction data from a retail store with branches across multiple countries. The objective is to clean the data, analyze sales performance, and create an interactive dashboard that provides meaningful insights for stakeholders.
 
-Clean and prepare raw sales transaction data
+🎯 Objectives
 
-Analyze sales performance across global locations
+Perform basic data cleaning to ensure data accuracy
 
-Segment data by Country, Region, and Market
+Segment visuals by Country, Region, and Market
 
-Visualize shipping mode distribution by percentage
+Analyze the percentage of shipping based on Ship Mode
 
-Present sales trends at City, State, Region, and Market levels
+Visualize sales across City, State, Region, and Market
 
-Create an interactive sales dashboard with supporting tables
+Create tables for all visualizations
 
- Data Cleaning
+Build an interactive sales report for stakeholders
 
-Basic data cleaning steps were performed to ensure data quality:
+🧹 Data Cleaning
 
-Removal of duplicate records
+The following data cleaning steps were performed:
 
-Handling missing or invalid values
+Removed duplicate records
 
-Standardization of categorical fields (Country, Region, Market)
+Handled missing and null values
 
-Data type corrections for dates, numeric, and categorical columns
+Standardized Country, Region, and Market fields
 
- Data Segmentation
+Corrected data types for dates and numeric columns
 
-All visuals in the report are segmented using:
+📍 Data Segmentation
+
+All visuals are segmented using:
 
 Country
 
@@ -41,11 +42,11 @@ Region
 
 Market
 
-These filters allow users to dynamically explore and compare sales performance across geographical dimensions.
+These segments allow stakeholders to interactively filter and analyze sales data.
 
- Shipping Mode Analysis
+🚚 Shipping Mode Analysis
 
-A visual analysis shows the percentage contribution of each shipping mode
+Visualized the percentage distribution of shipping based on Ship Mode
 
 Ship Modes included:
 
@@ -57,59 +58,43 @@ First Class
 
 Same Day
 
-This analysis helps identify preferred shipping methods and logistics patterns.
+📊 Sales Analysis
 
- Sales Performance Analysis
+Sales performance is analyzed using the following dimensions:
 
-Sales data is visualized across multiple geographic levels:
+City-wise sales
 
-City-wise Sales
+State-wise sales
 
-State-wise Sales
+Region-wise sales
 
-Region-wise Sales
+Market-wise sales
 
-Market-wise Sales
+These visuals help identify top-performing locations and sales trends.
 
-These visuals help identify:
+📋 Tables
 
-Top-performing locations
+Each visualization is supported by a corresponding data table to display detailed values and improve data transparency.
 
-Regional trends
+📈 Interactive Dashboard
 
-Market contribution to overall revenue
+An interactive dashboard was created to:
 
- Data Tables
+Filter data by Country, Region, and Market
 
-Each visualization is supported by a corresponding table that:
-
-Displays exact numerical values
-
-Improves transparency
-
-Enables deeper analysis beyond charts
-
- Interactive Dashboard
-
-The final deliverable is an interactive global sales dashboard that allows stakeholders to:
-
-Apply filters for Country, Region, and Market
-
-Drill down from Market → Region → State → City
+Drill down from Market to Region, State, and City
 
 Analyze shipping mode distribution
 
-Explore sales trends dynamically
+Explore global sales trends dynamically
 
- Tools Used
+🛠 Tools Used
 
-Data Visualization Tool: (Power BI / Tableau / Excel / Python)
+Data Visualization Tool: Power BI / Tableau / Excel / Python
 
-Data Cleaning & Transformation Techniques
+Data Cleaning and Data Transformation
 
-Interactive Filters and Drill-Down Features
-
- Project Structure
+📁 Project Structure
 ├── Data/
 │   └── Global_Sales_Dataset.csv
 ├── Dashboard/
@@ -118,6 +103,6 @@ Interactive Filters and Drill-Down Features
 │   └── Sales_Summary_Tables
 └── README.md
 
- Conclusion
+✅ Conclusion
 
-The Global Sales Analysis report provides a comprehensive view of worldwide sales performance and shipping trends. Through interactive visuals and detailed tables, stakeholders can easily explore insights and make data-driven decisions.
+The Global Sales Analysis report provides a comprehensive view of worldwide sales performance and shipping trends. The interactive dashboard enables stakeholders to make informed, data-driven decisions.
